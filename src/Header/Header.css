@@ -1,0 +1,30 @@
+header {
+  background-image: url("./blog_header_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25em;
+  margin-bottom: 3em;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.head_image {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #44545e;
+}
+
+h2 a,
+h3,
+h4 {
+  /* opacity: 0.6;*/
+  font-weight: bold;
+  color: #44545e;
+  font-size: 1.5em;
+}
